@@ -1,0 +1,40 @@
+.background,
+.progress {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--gray-200);
+  height: 8px;
+}
+.progress {
+  width: 10.07%;
+  right: 89.93%;
+  background-color: var(--primary-600);
+}
+.progressBar {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-5xs);
+  height: 8px;
+}
+.percentage {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.progress10Labelright {
+  position: relative;
+  width: 320px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--inter-14-medium-size);
+  color: var(--gray-700);
+  font-family: var(--inter-14-medium);
+}

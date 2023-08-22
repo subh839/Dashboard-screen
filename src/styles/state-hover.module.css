@@ -1,0 +1,106 @@
+.outerCircle {
+  top: calc(50% - 24px);
+  left: calc(50% - 24px);
+  width: 48px;
+  height: 48px;
+  opacity: 0.1;
+}
+.innerCircle,
+.middleCircle,
+.outerCircle {
+  position: absolute;
+  border-radius: var(--br-9xl);
+  background-color: var(--primary-500);
+}
+.middleCircle {
+  top: calc(50% - 14px);
+  left: calc(50% - 14px);
+  width: 28px;
+  height: 28px;
+  opacity: 0.2;
+}
+.innerCircle {
+  top: calc(50% - 4px);
+  left: calc(50% - 4px);
+  width: 8px;
+  height: 8px;
+}
+.cursorIcon {
+  position: absolute;
+  height: 53.44%;
+  width: 50.94%;
+  top: 70%;
+  right: -20%;
+  bottom: -23.44%;
+  left: 69.06%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.auIcon,
+.text {
+  position: relative;
+}
+.auIcon {
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.text {
+  align-self: stretch;
+  line-height: 18px;
+  font-weight: 600;
+}
+.smithStreet {
+  margin-block-start: 0;
+  margin-block-end: 12px;
+}
+.collingwoodVic3066 {
+  margin: 0;
+}
+.supportingText {
+  position: relative;
+  line-height: 18px;
+  color: var(--gray-600);
+}
+.content,
+.textAndSupportingText {
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.content {
+  background-color: var(--base-white);
+  padding: var(--padding-xs) var(--padding-base);
+  gap: var(--gap-5xs);
+}
+.tooltipIcon {
+  position: relative;
+  width: 16px;
+  height: 6px;
+}
+.tooltip {
+  position: absolute;
+  bottom: 52px;
+  left: calc(50% - 90px);
+  border-radius: var(--br-5xs);
+  box-shadow: var(--shadow-lg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.statehover {
+  position: relative;
+  border-radius: var(--br-9xl);
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: var(--inter-12-medium-size);
+  color: var(--gray-700);
+  font-family: var(--inter-14-medium);
+}

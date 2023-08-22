@@ -1,0 +1,22 @@
+.text {
+  position: relative;
+  line-height: 18px;
+  font-weight: 600;
+}
+.sizedefault {
+  position: relative;
+  border-radius: 5.64px;
+  width: 76px;
+  height: 31.1px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--inter-12-medium-size);
+  color: var(--gray-700);
+  font-family: var(--inter-14-medium);
+}

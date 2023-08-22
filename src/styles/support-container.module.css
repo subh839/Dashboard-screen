@@ -1,0 +1,117 @@
+.lifeBuoy01Icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.text {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.content,
+.navigation,
+.support {
+  display: flex;
+  justify-content: flex-start;
+}
+.content {
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-xs);
+}
+.navigation,
+.support {
+  align-self: stretch;
+}
+.support {
+  border-radius: var(--br-7xs);
+  background-color: var(--base-white);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-xs);
+  align-items: center;
+}
+.navigation {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-9xs);
+}
+.avatarIcon {
+  border-radius: var(--br-181xl);
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.supportingText,
+.text2 {
+  position: relative;
+  line-height: 20px;
+}
+.text2 {
+  font-weight: 600;
+}
+.supportingText {
+  color: var(--gray-600);
+}
+.avatarLabelGroup,
+.textAndSupportingText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.avatarLabelGroup {
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-xs);
+  z-index: 0;
+}
+.logOut01Icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button {
+  margin: 0 !important;
+  position: absolute;
+  top: 16px;
+  right: 0;
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs);
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.account,
+.footer {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.account {
+  border-top: 1px solid var(--gray-200);
+  flex-direction: row;
+  padding: var(--padding-5xl) var(--padding-13xl) 0 var(--padding-5xs);
+  position: relative;
+  gap: var(--gap-28xl);
+  font-size: var(--inter-14-medium-size);
+}
+.footer {
+  flex-direction: column;
+  padding: 0 var(--padding-base) var(--padding-13xl);
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--inter-16-semibold-size);
+  color: var(--gray-700);
+  font-family: var(--inter-14-medium);
+}

@@ -1,0 +1,64 @@
+.avatarIcon {
+  border-radius: 248.88px;
+  width: 46px;
+  height: 46px;
+  object-fit: cover;
+}
+.supportingText,
+.text {
+  position: relative;
+  line-height: 20px;
+}
+.text {
+  font-weight: 500;
+}
+.supportingText {
+  color: var(--gray-600);
+}
+.tableCell,
+.textAndSupportingText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tableCell {
+  flex: 1;
+  border-bottom: 1px solid var(--gray-200);
+  box-sizing: border-box;
+  height: 72px;
+  flex-direction: row;
+  padding: var(--padding-base) 0;
+  align-items: center;
+  gap: var(--gap-xs);
+}
+.text1 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.row1,
+.tableCell1 {
+  display: flex;
+  flex-direction: row;
+}
+.tableCell1 {
+  border-bottom: 1px solid var(--gray-200);
+  box-sizing: border-box;
+  width: 44px;
+  height: 72px;
+  padding: var(--padding-base) 0;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--inter-16-semibold-size);
+  color: var(--primary-600);
+}
+.row1 {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--inter-14-medium-size);
+  color: var(--gray-900);
+  font-family: var(--inter-14-medium);
+}

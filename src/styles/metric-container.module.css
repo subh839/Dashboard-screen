@@ -1,0 +1,212 @@
+.cards {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.coinsStacked03Icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.text {
+  position: relative;
+  line-height: 30px;
+  font-weight: 600;
+}
+.title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-sm);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--inter-20-semibold-size);
+}
+.text1 {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.buttonGroupBase,
+.buttonGroupBase1,
+.buttonGroupBase2 {
+  background-color: var(--gray-50);
+  border-right: 1px solid var(--gray-300);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-base);
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+.buttonGroupBase1,
+.buttonGroupBase2 {
+  background-color: var(--base-white);
+  z-index: 1;
+}
+.buttonGroupBase2 {
+  z-index: 0;
+}
+.buttonGroup,
+.tabButtonBase,
+.tabButtonBase1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+.buttonGroup {
+  border-radius: var(--br-5xs);
+  box-shadow: var(--shadow-xs);
+  border: 1px solid var(--gray-300);
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--gray-800);
+}
+.tabButtonBase,
+.tabButtonBase1 {
+  padding: var(--padding-12xs) var(--padding-9xs) var(--padding-2xs);
+  align-items: center;
+  justify-content: center;
+}
+.tabButtonBase1 {
+  border-bottom: 2px solid var(--primary-700);
+  color: var(--primary-700);
+}
+.horizontalTabs,
+.sectionHeader,
+.yAxis {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.horizontalTabs {
+  border-bottom: 1px solid var(--gray-200);
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  color: var(--gray-500);
+}
+.sectionHeader,
+.yAxis {
+  flex-direction: column;
+}
+.sectionHeader {
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+}
+.yAxis {
+  flex: 1;
+  justify-content: space-between;
+}
+.jan {
+  position: relative;
+  line-height: 18px;
+}
+.xAxis1 {
+  position: absolute;
+  width: calc(100% - 64px);
+  top: 0;
+  right: 0;
+  left: 64px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-5xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.text9,
+.xAxis {
+  position: relative;
+}
+.xAxis {
+  align-self: stretch;
+  height: 16px;
+}
+.text9 {
+  line-height: 18px;
+  font-weight: 500;
+}
+.xAxisLabel {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) 0 0;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+}
+.axis,
+.content {
+  display: flex;
+  justify-content: flex-start;
+}
+.content {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.axis {
+  position: absolute;
+  height: calc(100% + 0.29px);
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: -0.29px;
+  left: 0;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.lineAndBarChart {
+  align-self: stretch;
+  position: relative;
+  height: 280.71px;
+  text-align: right;
+  font-size: var(--inter-12-medium-size);
+  color: var(--gray-600);
+}
+.barGraph,
+.cardsAndGraph {
+  flex: 1;
+  flex-direction: column;
+}
+.barGraph {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  color: var(--gray-700);
+}
+.cardsAndGraph {
+  gap: var(--gap-13xl);
+}
+.allMetrics,
+.barGraphAndMap,
+.cardsAndGraph {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.barGraphAndMap {
+  flex: 1;
+  flex-direction: column;
+}
+.allMetrics {
+  height: 571.71px;
+  flex-direction: row;
+  padding: 0 var(--padding-13xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--inter-14-medium-size);
+  color: var(--gray-600);
+  font-family: var(--inter-14-medium);
+}

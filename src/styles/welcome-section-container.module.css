@@ -1,0 +1,65 @@
+.text1 {
+  position: relative;
+  line-height: 38px;
+  font-weight: 600;
+}
+.eveningIcon {
+  position: relative;
+  width: 38px;
+  height: 38px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.text {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.supportingText {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--inter-16-semibold-size);
+  line-height: 24px;
+  color: var(--gray-600);
+}
+.textAndSupportingText {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.actions,
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.content {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-base);
+}
+.container,
+.headerSection,
+.pageHeader {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container {
+  padding: 0 var(--padding-13xl) var(--padding-5xs);
+}
+.headerSection {
+  text-align: left;
+  font-size: var(--inter-30-semibold-size);
+  color: var(--gray-900);
+  font-family: var(--inter-14-medium);
+}

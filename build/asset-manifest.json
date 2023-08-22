@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.60b0d685.css",
+    "main.js": "/static/js/main.680ea74b.js",
+    "static/media/Frlogo.svg": "/static/media/Frlogo.80af5c6548d0aee3e0e3620ad8a6a672.svg",
+    "static/media/building-02.svg": "/static/media/building-02.249fec0734f0e016180ecb83c42f8add.svg",
+    "static/media/magic-wand-01.svg": "/static/media/magic-wand-01.ea41a2e1c5bf8a53d532c1ac9f33759e.svg",
+    "static/media/home-line.svg": "/static/media/home-line.97c61f5be07000f0446db627e752a69d.svg",
+    "static/media/user-02.svg": "/static/media/user-02.c90e40803650dffee3e118c3c3177f35.svg",
+    "static/media/notification-text.svg": "/static/media/notification-text.c90c4c3d81e114f5eaaea36b1ac96009.svg",
+    "static/media/alert-triangle.svg": "/static/media/alert-triangle.a07ab58fe4af794910f7fea5864e3fac.svg",
+    "index.html": "/index.html",
+    "static/media/currency-dollar-circle.svg": "/static/media/currency-dollar-circle.a77c2a7271c11509e64263cf7ce142bf.svg",
+    "static/media/Icon.svg": "/static/media/Icon.5d30cea8f108c1ef795504b9a2a00e2c.svg",
+    "main.60b0d685.css.map": "/static/css/main.60b0d685.css.map",
+    "main.680ea74b.js.map": "/static/js/main.680ea74b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60b0d685.css",
+    "static/js/main.680ea74b.js"
+  ]
+}

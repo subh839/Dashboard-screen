@@ -1,0 +1,33 @@
+.outerCircle {
+  top: calc(50% - 20px);
+  left: calc(50% - 20px);
+  width: 40px;
+  height: 40px;
+  opacity: 0.1;
+}
+.innerCircle,
+.middleCircle,
+.outerCircle {
+  position: absolute;
+  border-radius: var(--br-9xl);
+  background-color: var(--primary-500);
+}
+.middleCircle {
+  top: calc(50% - 12px);
+  left: calc(50% - 12px);
+  width: 24px;
+  height: 24px;
+  opacity: 0.2;
+}
+.innerCircle {
+  top: calc(50% - 4px);
+  left: calc(50% - 4px);
+  width: 8px;
+  height: 8px;
+}
+.statedefault {
+  position: relative;
+  border-radius: var(--br-9xl);
+  width: 40px;
+  height: 40px;
+}

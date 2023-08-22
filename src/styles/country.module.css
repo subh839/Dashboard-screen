@@ -1,0 +1,36 @@
+.text,
+.usIcon {
+  position: relative;
+}
+.usIcon {
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.text {
+  align-self: stretch;
+  line-height: 20px;
+  font-weight: 500;
+}
+.country,
+.textAndProgressBar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.textAndProgressBar {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-11xs);
+}
+.country {
+  position: relative;
+  width: 264px;
+  flex-direction: row;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--inter-14-medium-size);
+  color: var(--gray-700);
+  font-family: var(--inter-14-medium);
+}

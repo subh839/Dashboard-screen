@@ -1,0 +1,29 @@
+.main {
+  align-self: stretch;
+  background-color: var(--gray-25);
+  height: 1849px;
+  flex-direction: column;
+  padding: var(--padding-13xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+}
+.main,
+.mainWrap,
+.superAdminPanelDashboard1a {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mainWrap {
+  align-self: stretch;
+  flex: 1;
+  overflow-y: auto;
+  flex-direction: column;
+}
+.superAdminPanelDashboard1a {
+  position: relative;
+  width: 100%;
+  height: 1849px;
+  overflow: hidden;
+  flex-direction: row;
+}

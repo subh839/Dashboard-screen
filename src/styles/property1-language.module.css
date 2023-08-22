@@ -1,0 +1,27 @@
+.translate02Icon {
+  position: relative;
+  width: 9.9px;
+  height: 9.9px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.text {
+  position: relative;
+  line-height: 18px;
+}
+.property1language {
+  position: relative;
+  border-radius: var(--br-sm-2);
+  background-color: var(--gray-200);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-11xs) var(--padding-xs);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs-3);
+  mix-blend-mode: normal;
+  text-align: center;
+  font-size: var(--inter-12-medium-size);
+  color: var(--gray-700);
+  font-family: var(--inter-14-medium);
+}

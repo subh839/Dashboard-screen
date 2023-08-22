@@ -1,0 +1,22 @@
+.content,
+.property1default {
+  display: flex;
+  align-items: flex-start;
+}
+.content {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.property1default {
+  position: relative;
+  background-color: var(--base-white);
+  border-right: 1px solid var(--gray-200);
+  box-sizing: border-box;
+  width: 280px;
+  height: 960px;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-start;
+}

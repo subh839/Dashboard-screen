@@ -1,0 +1,49 @@
+.heading {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  z-index: 0;
+}
+.number {
+  flex: 1;
+  position: relative;
+  line-height: 38px;
+  font-weight: 600;
+}
+.badgeWrap {
+  flex-direction: column;
+  padding: 0 0 var(--padding-5xs);
+  align-items: flex-start;
+}
+.badgeWrap,
+.metricItem,
+.numberAndBadge {
+  display: flex;
+  justify-content: flex-start;
+}
+.numberAndBadge {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-base);
+  z-index: 1;
+  font-size: var(--inter-30-semibold-size);
+  color: var(--gray-900);
+}
+.metricItem {
+  flex: 1;
+  border-radius: var(--br-xs);
+  background-color: var(--base-white);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--gray-200);
+  flex-direction: column;
+  padding: var(--padding-5xl);
+  align-items: flex-start;
+  position: relative;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--inter-14-medium-size);
+  color: var(--gray-600);
+  font-family: var(--inter-14-medium);
+}

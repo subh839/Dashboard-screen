@@ -1,0 +1,43 @@
+.messageSquare01Icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-29xl);
+  background-color: var(--base-white);
+  box-shadow: var(--shadows-md);
+  border: 0.5px solid var(--primary-300);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: center;
+  justify-content: center;
+}
+.property1group27306Child {
+  position: absolute;
+  height: 30%;
+  width: 30%;
+  top: 0;
+  right: 0;
+  bottom: 70%;
+  left: 70%;
+  border-radius: 50%;
+  background-color: var(--primary-700);
+}
+.property1group27306 {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}

@@ -1,0 +1,29 @@
+.arrowUpIcon {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.text {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.sizemdIconiconLeadingCo {
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--error-50);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-11xs) var(--padding-3xs) var(--padding-11xs)
+    var(--padding-5xs);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  mix-blend-mode: multiply;
+  text-align: center;
+  font-size: var(--inter-14-medium-size);
+  color: var(--error-700);
+  font-family: var(--inter-14-medium);
+}
